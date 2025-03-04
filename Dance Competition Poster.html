@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!-- saved from url=(0054)file:///C:/Users/chait/OneDrive/Desktop/Soc/dance.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dance Competition Poster</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: url('https://image.slidesdocs.com/responsive-images/background/dance-rave-party-powerpoint-background_43f492458a__960_540.jpg') no-repeat center center fixed; 
+      background-size: cover;
+      position: relative;
+      font-family: 'Arial', sans-serif; /* Updated font to Arial */
+    }
+    .poster {
+      background-color: rgba(0, 255, 255, 0.8); /* Cyan background */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      padding: 40px;
+      width: 90%;
+      height: 70%;
+      max-width: 90vw;
+      max-height: 90vh;
+      text-align: center;
+      border: 15px solid #ffffff; /* White border */
+      position: relative;
+      z-index: 1;
+    }
+    .poster h1 {
+      color: #ff0000; /* Red color */
+      font-size: 3em;
+      margin: 0;
+      text-transform: uppercase;
+    }
+    .poster p {
+      color: #00008b; /* Blue color */
+      font-size: 1.5em;
+      margin: 20px 0;
+    }
+    .poster .highlight {
+      color: #00008b; /* Dark blue color */
+      font-size: 1.5em;
+      margin: 20px 0;
+    }
+    .poster .date {
+      font-size: 2em;
+      color: #fff; /* white */
+      margin: 20px 0;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    }
+    .poster .location {
+      font-size: 1.8em;
+      color: #c71585; /* Dark pink */
+      margin: 20px 0;
+    }
+    .poster .additional-info {
+      color: #006400; /* Dark green */
+      font-size: 1.5em;
+      margin: 20px 0;
+    }
+    .poster .organized-by {
+      font-size: 1.2em;
+      color: #000; /* Black */
+      margin-top: 20px;
+    }
+    .poster .register-button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 1.2em;
+      color: #fff;
+      background-color: #ff6347; /* Tomato */
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .poster .register-button:hover {
+      background-color: #ff4500; /* Orange red */
+    }
+    .poster .contact {
+      position: absolute;
+      bottom: 40px; /* Adjusted to fit the new text */
+      left: 20px;
+      font-size: 1em;
+      color: #000; /* Black */
+    }
+    .poster .coordinator {
+      position: absolute;
+      bottom: 20px;
+      right: 20px; /* Positioned to the right bottom */
+      font-size: 1em;
+      color: #000; /* Black */
+    }
+    .poster .message {
+      margin-top: 20px;
+      font-size: 1.5em;
+      color: #fff; /* white */
+    }
+  </style>
+  <script>
+    function register() {
+      const messageElement = document.createElement('p');
+      messageElement.className = 'message';
+      messageElement.textContent = 'Registered successfully!';
+      document.querySelector('.poster').appendChild(messageElement);
+    }
+  </script>
+</head>
+<body>
+  <div class="poster">
+    <h1>Dance Competition</h1>
+    <b><p class="date">March 15, 2025</p></b>
+    <h4><p class="location">Sri Vasavi Engineering College, Pedatadepalli</p></h4>
+    <p class="highlight">Join us for an exciting evening of dance performances!</p>
+    <p class="additional-info">Open to all ages and skill levels. Show off your moves and have fun!</p>
+    <p><b>Tech Euphoria 2K25 </b></p>
+    <p class="organized-by">Organized by Sakala Club Svec</p>
+    <button class="register-button" onclick="register()">Register</button>
+    <h4><p class="contact">gmail: svectecheuphoria2k25@gmail.com</p>
+    </h4><h4><p class="coordinator">Coordinator: M.Kiranmayi <br>phone: 9889087643</p></h4><h4>
+  </h4><p class="message">Registered successfully!</p></div>
+
+
+</body></html>
